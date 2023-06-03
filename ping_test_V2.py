@@ -1,6 +1,6 @@
 import ping3
 import time
-
+#对ping的时间进行计算
 def ping_ip(ip_address, count=1, interval=1, timeout=1):
     delays = []
     for _ in range(count):
