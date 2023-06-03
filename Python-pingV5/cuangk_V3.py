@@ -6,6 +6,7 @@ from clear_output import clear_output
 # 创建主窗口
 window = tk.Tk()
 window.title("Ping测试工具@叮当在上")
+window.geometry("800x520")
 
 # 创建输入栏
 frame_input1 = tk.Frame(window)
@@ -44,14 +45,14 @@ frame_input3.pack(pady=10)
 label_color = tk.Label(frame_input3, text="选择字体颜色：")
 label_color.pack(side="left")
 
-combo_color = ttk.Combobox(frame_input3, values=["green", "black", "red", "orange", "purple", "pink"])
+combo_color = ttk.Combobox(frame_input3, values=["green", "black", "red", "orange", "purple", "pink","@叮当在上"])
 combo_color.current(0)
 combo_color.pack(side="left", padx=10)
 
 label_size = tk.Label(frame_input3, text="选择字体大小：")
 label_size.pack(side="left", padx=10)
 
-combo_size = ttk.Combobox(frame_input3, values=["10", "12", "14", "16", "18"])
+combo_size = ttk.Combobox(frame_input3, values=["10", "12", "14", "16", "18","20","30","100","520","1314","@叮当在上"])
 combo_size.current(0)
 combo_size.pack(side="left")
 
@@ -93,6 +94,7 @@ scrollbar.pack(side="right", fill="y")
 text_output.config(yscrollcommand=scrollbar.set)
 
 scrollbar.config(command=text_output.yview)
+
 
 # 运行主循环
 window.mainloop()
