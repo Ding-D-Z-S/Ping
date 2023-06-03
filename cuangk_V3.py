@@ -1,3 +1,4 @@
+#主程序
 import tkinter as tk
 from tkinter import ttk
 from start_ping import start_ping
