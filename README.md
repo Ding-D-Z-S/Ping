@@ -5,17 +5,18 @@
 
 - 本项目中包含了四个版本的信息。
 - 有V1,V2,V5,V6四个版本。
-- V6版本较为完整（停止维护）。
+- V6版本较为完整<s>（停止维护）</s>。
 - V6版本下的dist文件夹中有可直接执行的.exe文件。
 
 *****想将V5升级为V6？     诶嘿！请接着往下看。*****
+
 # 怎么样将Python程序（.py）打包为可直接运行的程序（.exe）
-### 要将 Python 脚本转换为可执行文件（.exe），你可以使用 PyInstaller 或 cx_Freeze 等工具。这些工具可以将 Python 脚本打包为独立的可执行文件，使你能够在没有安装 Python 解释器的计算机上运行该程序。
+
+### 要将 Python 脚本转换为可执行文件（.exe），你可以使用 PyInstaller 或 <s>cx_Freeze</s> 等工具。这些工具可以将 Python 脚本打包为独立的可执行文件，使你能够在没有安装 Python 解释器的计算机上运行该程序。
 
 **下面是使用 PyInstaller 将代码打包成可执行文件的步骤：**
 
-- 首先，确保你已经安装了 PyInstaller。可以使用以下命令进行安装：
- 安装 PyInstaller
+- 首先，确保你已经安装了 PyInstaller。可以使用以下命令进行安装：#93db70
 
 ```bash
 pip install pyinstaller
