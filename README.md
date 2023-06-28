@@ -16,7 +16,7 @@
 
 **下面是使用 PyInstaller 将代码打包成可执行文件的步骤：**
 
-- 首先，确保你已经安装了 PyInstaller。可以使用以下命令进行安装：#93db70
+- 首先，确保你已经安装了 PyInstaller。可以使用以下命令进行安装：
 
 ```bash
 pip install pyinstaller
